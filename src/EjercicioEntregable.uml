@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">Profesor.Profesor</node>
+    <node x="297.18749999999994" y="1422.0">DigitalHouseManager</node>
+    <node x="677.3541666666667" y="1167.0">Inscripcion</node>
+    <node x="37.5" y="422.0">Profesor.ProfesorAdjunto</node>
+    <node x="369.5" y="422.0">Profesor.ProfesorTitular</node>
+    <node x="776.8270202020202" y="367.0">Alumno</node>
+    <node x="340.3541666666667" y="624.0">Curso</node>
+    <node x="438.68749999999994" y="1767.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DigitalHouseManager" target="Inscripcion">
+      <point x="50.444444444444514" y="-147.5" />
+      <point x="574.6319444444445" y="1372.0" />
+      <point x="746.8541666666667" y="1372.0" />
+      <point x="-69.5" y="92.5" />
+    </edge>
+    <edge source="Curso" target="Alumno">
+      <point x="178.33333333333337" y="-246.5" />
+      <point x="786.1875" y="604.0" />
+      <point x="812.7020202020202" y="604.0" />
+      <point x="-107.625" y="103.5" />
+    </edge>
+    <edge source="Curso" target="Profesor.ProfesorAdjunto">
+      <point x="-178.33333333333337" y="-246.5" />
+      <point x="429.5208333333333" y="594.0" />
+      <point x="271.5" y="594.0" />
+      <point x="78.0" y="48.5" />
+    </edge>
+    <edge source="DigitalHouseManager" target="Alumno">
+      <point x="201.77777777777789" y="-147.5" />
+      <point x="725.9652777777778" y="1402.0" />
+      <point x="976.8541666666667" y="1402.0" />
+      <point x="976.8541666666667" y="604.0" />
+      <point x="1027.9520202020203" y="604.0" />
+      <point x="107.625" y="103.5" />
+    </edge>
+    <edge source="Inscripcion" target="Curso">
+      <point x="-69.5" y="-92.5" />
+      <point x="746.8541666666667" y="1142.0" />
+      <point x="786.1875" y="1142.0" />
+      <point x="178.33333333333337" y="246.5" />
+    </edge>
+    <edge source="Profesor.ProfesorTitular" target="Profesor.Profesor">
+      <point x="0.0" y="-48.5" />
+      <point x="474.5" y="342.0" />
+      <point x="322.5" y="342.0" />
+      <point x="129.0" y="158.5" />
+    </edge>
+    <edge source="Inscripcion" target="Alumno">
+      <point x="69.5" y="-92.5" />
+      <point x="885.8541666666667" y="604.0" />
+      <point x="884.4520202020202" y="604.0" />
+      <point x="-35.875" y="103.5" />
+    </edge>
+    <edge source="DigitalHouseManager" target="Profesor.ProfesorAdjunto">
+      <point x="-151.33333333333331" y="-147.5" />
+      <point x="372.85416666666663" y="1392.0" />
+      <point x="115.5" y="1392.0" />
+      <point x="-78.0" y="48.5" />
+    </edge>
+    <edge source="DigitalHouseManager" target="Profesor.Profesor">
+      <point x="-201.77777777777777" y="-147.5" />
+      <point x="322.4097222222222" y="1402.0" />
+      <point x="27.0" y="1402.0" />
+      <point x="27.0" y="342.0" />
+      <point x="64.5" y="342.0" />
+      <point x="-129.0" y="158.5" />
+    </edge>
+    <edge source="Profesor.ProfesorAdjunto" target="Profesor.Profesor">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="DigitalHouseManager" target="Profesor.ProfesorTitular">
+      <point x="-100.88888888888886" y="-147.5" />
+      <point x="423.2986111111111" y="1382.0" />
+      <point x="329.8541666666667" y="1382.0" />
+      <point x="329.8541666666667" y="604.0" />
+      <point x="422.0" y="604.0" />
+      <point x="-52.5" y="48.5" />
+    </edge>
+    <edge source="Curso" target="Profesor.ProfesorTitular">
+      <point x="0.0" y="-246.5" />
+      <point x="607.8541666666667" y="604.0" />
+      <point x="527.0" y="604.0" />
+      <point x="52.5" y="48.5" />
+    </edge>
+    <edge source="Main" target="DigitalHouseManager">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="DigitalHouseManager" target="Curso">
+      <point x="5.6843418860808015E-14" y="-147.5" />
+      <point x="524.1875" y="1402.0" />
+      <point x="552.5467171717172" y="1402.0" />
+      <point x="552.5467171717172" y="1142.0" />
+      <point x="607.8541666666667" y="1142.0" />
+      <point x="0.0" y="246.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9824175824175824" x="358.9999999999999" y="352.37136465324386" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
